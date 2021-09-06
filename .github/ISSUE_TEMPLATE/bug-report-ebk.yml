@@ -29,7 +29,7 @@ body:
     attributes:
       label: Captura del error
       description: Pegar una captura que muestre el error
-      placeholder: Tell us what you see!
+      placeholder: 👀
     validations:
       required: true
   - type: input
