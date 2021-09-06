@@ -4,12 +4,14 @@ title: "[SERVICIO y/o PROVEEDOR] Breve descripcion del error"
 labels: []
 assignees: []
 body:
-  - type: input
+  - type: textarea
     id: error-desc
     attributes:
       label: Descripcion del error
       description: Detalles respecto al comportamiento del error, asi como el comportamiento esperado
-      placeholder: Al tratar de revisar una reserva de hoteles, aparece un error que detalla "No se pudo sincronizar a sistema de agencia...", en lugar de actualizar la reserva
+      placeholder: |
+        Al tratar de revisar una reserva de hoteles, aparece un error que detalla "No se pudo sincronizar a sistema de agencia...". 
+        En su lugar, deberia actualizar la reserva
     validations:
       required: true
   - type: textarea
