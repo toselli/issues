@@ -38,6 +38,8 @@ body:
       label: Link al error y/o Localizador
       description: Link de busqueda, link al adm y/o localizador de reserva
       placeholder: https://adm.ebooking.com.ar/bookings/detail/6112d49e4b463ea0a16070dc?purchaseGroupId=358722#heading_6112d49e4b463ea0a16070dc
+    validations:
+      required: true
   - type: input
     id: user-agent
     attributes:
