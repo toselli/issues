@@ -7,6 +7,12 @@ assignees: ''
 
 ---
 
+### Descripcion del error
+Al tratar de revisar una reserva de hoteles, aparece un error que detalla "No se pudo sincronizar a sistema de agencia..."
+
+### Comportamiento esperado
+Poder recibir los detalles de la reserva en estado confirmado
+
 ### Pasos para reproducir el error
 1. Buscar en **Miami Y Sus Alrededores**, el **03/09/2021**, **2 adultos**
 2. Hacer click en **Rodeway Inn Miami**
@@ -18,3 +24,6 @@ assignees: ''
 
 ### Link al error o Localizador
 https://adm.ebooking.com.ar/bookings/detail/6112d49e4b463ea0a16070dc?purchaseGroupId=358722#heading_6112d49e4b463ea0a16070dc
+
+### Plataforma ([¿Cual es mi plataforma?](https://www.google.com/search?q=whats+my+user+agent))
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
