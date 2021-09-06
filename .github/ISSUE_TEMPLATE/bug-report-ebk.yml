@@ -2,7 +2,7 @@ name: Notificar Error
 description: Crea un issue detallando el error
 title: "[SERVICIO y/o PROVEEDOR] Breve descripcion del error"
 labels: []
-assignees:
+assignees: []
 body:
   - type: markdown
     attributes:
