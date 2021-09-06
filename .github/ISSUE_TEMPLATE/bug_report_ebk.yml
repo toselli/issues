@@ -1,0 +1,72 @@
+name: Notificar Error
+description: Crea un issue detallando el error
+title: "[SERVICIO y/o PROVEEDOR] Breve descripcion del error"
+labels: []
+assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: error-desc
+    attributes:
+      label: Descripcion del error
+      description: Detalles respecto al comportamiento del error
+      placeholder: Al tratar de revisar una reserva de hoteles, aparece un error que detalla "No se pudo sincronizar a sistema de agencia..."
+    validations:
+      required: true
+  - type: textarea
+    id: error-steps
+    attributes:
+      label: Descripcion del error
+      description: Detalles respecto al comportamiento del error
+      placeholder: "1. Buscar en **Miami Y Sus Alrededores**, el **03/09/2021**, **2 adultos**
+2. Hacer click en **Rodeway Inn Miami**
+3. Reservar **1 King Bed**
+4. Ir al adm y revisar reserva"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
