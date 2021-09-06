@@ -4,69 +4,42 @@ title: "[SERVICIO y/o PROVEEDOR] Breve descripcion del error"
 labels: []
 assignees: []
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
     id: error-desc
     attributes:
       label: Descripcion del error
-      description: Detalles respecto al comportamiento del error
-      placeholder: Al tratar de revisar una reserva de hoteles, aparece un error que detalla "No se pudo sincronizar a sistema de agencia..."
+      description: Detalles respecto al comportamiento del error, asi como el comportamiento esperado
+      placeholder: Al tratar de revisar una reserva de hoteles, aparece un error que detalla "No se pudo sincronizar a sistema de agencia...", en lugar de actualizar la reserva
     validations:
       required: true
   - type: textarea
     id: error-steps
     attributes:
-      label: Descripcion del error
+      label: Paso a paso para reproducir el error
       description: Detalles respecto al comportamiento del error
-      placeholder: "1. Buscar en **Miami Y Sus Alrededores**, el **03/09/2021**, **2 adultos**
-2. Hacer click en **Rodeway Inn Miami**
-3. Reservar **1 King Bed**
-4. Ir al adm y revisar reserva"
+      placeholder: 1. Buscar en **Miami Y Sus Alrededores**, el **03/09/2021**, **2 adultos** |
+      2. Hacer click en **Rodeway Inn Miami** |
+      3. Reservar **1 King Bed** |
+      4. Ir al adm y revisar reserva"
     validations:
       required: true
   - type: textarea
-    id: what-happened
+    id: image
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: Captura del error
+      description: Pegar una captura que muestre el error
       placeholder: Tell us what you see!
-      value: "A bug happened!"
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: input
+    id: link
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
+      label: Link al error y/o Localizador
+      description: Link de busqueda, link al adm y/o localizador de reserva
+      placeholder: https://adm.ebooking.com.ar/bookings/detail/6112d49e4b463ea0a16070dc?purchaseGroupId=358722#heading_6112d49e4b463ea0a16070dc
+  - type: input
+    id: user-agent
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Plataform
+      description: ([¿Cual es mi plataforma?](https://www.google.com/search?q=whats+my+user+agent))
+      placeholder: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
