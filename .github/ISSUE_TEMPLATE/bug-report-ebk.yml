@@ -1,4 +1,4 @@
-name: Notificar Error
+name: [TEST] Notificar Error 
 description: Crea un issue detallando el error
 title: "[SERVICIO y/o PROVEEDOR] Breve descripcion del error"
 labels: []
