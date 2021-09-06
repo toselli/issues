@@ -17,9 +17,10 @@ body:
     attributes:
       label: Paso a paso para reproducir el error
       description: Detalles respecto al comportamiento del error
-      placeholder: 1. Buscar en **Miami Y Sus Alrededores**, el **03/09/2021**, **2 adultos** |
-      2. Hacer click en **Rodeway Inn Miami** |
-      3. Reservar **1 King Bed** |
+      placeholder: |
+      1. Buscar en **Miami Y Sus Alrededores**, el **03/09/2021**, **2 adultos** 
+      2. Hacer click en **Rodeway Inn Miami** 
+      3. Reservar **1 King Bed**
       4. Ir al adm y revisar reserva"
     validations:
       required: true
