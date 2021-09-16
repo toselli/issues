@@ -1,7 +1,7 @@
 name: "Notificar Error"
 description: Detalla un error inesperado, o una funcionalidad faltante
 title: "[SERVICIO y/o PROVEEDOR] Breve descripcion del error"
-labels: []
+labels: [bug]
 assignees: []
 body:
   - type: textarea
