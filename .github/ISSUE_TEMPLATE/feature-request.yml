@@ -1,0 +1,5 @@
+name: "Sugerir Mejora"
+description: Crea un issue detallando una nueva caracteristica o funcionalidad
+title: "[SERVICIO o PAGINA] Breve descripcion de la idea"
+labels: []
+assignees: []
