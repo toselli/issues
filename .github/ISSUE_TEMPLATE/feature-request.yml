@@ -1,5 +1,16 @@
 name: "Sugerir Mejora"
-description: Crea un issue detallando una nueva caracteristica o funcionalidad
+description: Detalla una nueva caracteristica o funcionalidad no existente
 title: "[SERVICIO o PAGINA] Breve descripcion de la idea"
-labels: []
+labels: [enhancement]
 assignees: []
+body:
+- type: textarea
+  id: descripcion
+  attributes:
+    label: Idea a implementar
+    description: "Detalla el comportamiento esperado, da ejemplos si es posible"
+    placeholder: |
+      Seria de gran utilidad poder filtrar los productos de atracciones en base a el idioma del guia, de tal manera que sea mas facil encontrar productos adecuados para cada cliente
+      Por ejemplo - poder filtrar por Guia en Español y/o Audioguia en Ingles
+  validations:
+    required: true
