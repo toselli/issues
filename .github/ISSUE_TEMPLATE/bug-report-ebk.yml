@@ -1,5 +1,5 @@
 name: "Notificar Error"
-description: Crea un issue detallando el error
+description: Detalla un error inesperado, o una funcionalidad faltante
 title: "[SERVICIO y/o PROVEEDOR] Breve descripcion del error"
 labels: []
 assignees: []
